@@ -1,3 +1,4 @@
+#*Time Complexity O(n)
 
 def linear_search (list, target):
     """
