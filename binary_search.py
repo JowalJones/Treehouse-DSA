@@ -1,6 +1,7 @@
 
 #*Logarithmic Runtime due to while loop, while redefining first and last which grow smaller and smaller.
-#* O(logN)
+#* Time Complexity O(logN)
+#*Space Complexity  O(1) Constant space
 """[Linear search iterates through all the elements and compares them with the key which has to be searched.
 Binary search wisely decreases the size of the array which has to be searched and compares the key with mid element every time.]
     """

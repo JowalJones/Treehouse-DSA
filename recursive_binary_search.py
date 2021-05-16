@@ -2,7 +2,11 @@
 """Just returns either true or false
 Logarithmic time since we keep calling the function with smaller lists. 
 (O(logN))
+
+Iterative binary is better coz of constant space. 
     """
+#*Space Complexity: Logarithmic O(log(N)) We keep creating new lists: Some languages like swift have tail-call elimination so do well with recursion. 
+
 
 
 def recursive_binary_search(list, target):
